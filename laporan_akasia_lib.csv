@@ -1,0 +1,19 @@
+LAPORAN PINJAMAN AKTIF
+ID_Peminjaman,ID_Buku,ID_Anggota,Tanggal_Pinjam,Tanggal_Jatuh_Tempo
+PJ-0001,BC-0001,AG-0001,2025-10-21,2025-11-04
+PJ-0002,BC-0002,AG-0001,2025-10-21,2025-11-04
+PJ-0003,BD-0001,AG-0002,2025-10-21,2025-11-11
+PJ-0005,BC-0003,AG-0003,2025-10-21,2025-11-20
+
+LAPORAN BUKU TERPOPULER
+Judul_Buku,Jumlah_Pinjam
+"Clean Code",2
+"Pemrograman Kotlin",1
+"Algoritma & Struktur Data",1
+
+LAPORAN ANTRIAN RESERVASI
+ID_Reservasi,ID_Buku,ID_Anggota,Tanggal_Reservasi
+
+
+LAPORAN KEUANGAN
+Total Denda Terkumpul,Rp 3000
