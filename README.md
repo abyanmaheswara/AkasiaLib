@@ -8,10 +8,10 @@ AkasiaLib adalah aplikasi Command-Line Interface (CLI) sederhana untuk manajemen
 
 | Peran | Nama             | NIM       | Kontribusi Spesifik |
 | :--- |:-----------------|:----------| :--- |
-| **1. Analis & Desainer** | (Nama Anggota 1) | (NIM 1)   | Menganalisis kebutuhan dan merancang struktur kelas dan relasi sesuai spesifikasi tugas (UML). |
+| **1. Analis & Desainer** | Dien Putri Alexa | 224443028   | Menganalisis kebutuhan dan merancang struktur kelas dan relasi sesuai spesifikasi tugas (UML). |
 | **2. Implementasi Model & Repository** | Abyan Maheswara  | 224443024 | - Membuat semua data class dan abstract class di direktori `model` (`Buku`, `BukuCetak`, `BukuDigital`, `Anggota`, `Peminjaman`, `Reservasi`).<br>- Mengimplementasikan `interface Identifiable` untuk type safety.<br>- Membuat repositori generik `InMemoryRepo<T>` untuk manajemen data di memori. |
-| **3. Implementasi Service & Logika Bisnis** | (Nama Anggota 3) | (NIM 3)   | - Membuat `CatalogService` dan `MemberService` untuk manajemen data dasar.<br>- Mengimplementasikan `ReservationService` untuk logika antrian.<br>- Membangun `CirculationService` yang berisi logika bisnis inti: peminjaman, pengembalian, perhitungan denda, dan pengecekan batas pinjam. |
-| **4. Implementasi CLI & Laporan** | (Nama Anggota 4) | (NIM 4)   | - Membangun antarmuka CLI interaktif di `Main.kt`.<br>- Mengimplementasikan fungsi untuk menjalankan skenario uji wajib secara otomatis.<br>- Membuat fungsi-fungsi untuk menampilkan laporan (pinjaman aktif, buku terpopuler, total denda, antrian reservasi). |
+| **3. Implementasi Service & Logika Bisnis** | Altaf Fazli Sakha | 224443025   | - Membuat `CatalogService` dan `MemberService` untuk manajemen data dasar.<br>- Mengimplementasikan `ReservationService` untuk logika antrian.<br>- Membangun `CirculationService` yang berisi logika bisnis inti: peminjaman, pengembalian, perhitungan denda, dan pengecekan batas pinjam. |
+| **4. Implementasi CLI & Laporan** | Muhammad Irsyad Salim Nugraha | 224443036   | - Membangun antarmuka CLI interaktif di `Main.kt`.<br>- Mengimplementasikan fungsi untuk menjalankan skenario uji wajib secara otomatis.<br>- Membuat fungsi-fungsi untuk menampilkan laporan (pinjaman aktif, buku terpopuler, total denda, antrian reservasi). |
 
 ---
 
