@@ -31,9 +31,11 @@ Pastikan Anda memiliki JDK (Java Development Kit) yang terinstal.
     ```
 3.  Aplikasi akan pertama-tama menjalankan skenario uji otomatis, lalu menampilkan menu interaktif.
 
----
+--- 
 
-## Sistem Login AkasiaLib
+## Contoh Penggunaan Aplikasi
+
+### Sistem Login AkasiaLib
 ```
 === ? Sistem Login AkasiaLib ===
 Username:
@@ -49,7 +51,7 @@ Username:admin
 Password:admin123
 ```
 
-## Menu Super Admin
+### Menu Super Admin
 ```
 === ? Menu Super Admin ===
 1. Tambah akun petugas baru
@@ -67,7 +69,7 @@ Password:admin123
 Pilih menu:
 ```
 
-## Menu Pustakawan
+### Menu Pustakawan
 ```
 === ? Sistem Perpustakaan AkasiaLib ===
 1. Kelola Buku
@@ -137,31 +139,25 @@ Pilih menu:
       Durasi: 6j 45m
       Narator: Dennis Adishwara
    0. Kembali
-   Pilih menu:
-2. Kelola Anggota
-   Contoh (jika memilih 2):
-   === ? Kelola Anggota ===
+   Pilih menu:\n2. Kelola Anggota
+   Contoh (jika memilih 2):\n   === ? Kelola Anggota ===
    1. Tambah Anggota
-      Contoh (jika memilih 1):
-      Nama: Abyan
+      Contoh (jika memilih 1):\n      Nama: Abyan
       Tier (REGULAR / PREMIUM / STAFF): REGULAR
-      Anggota 'Abyan' berhasil didaftarkan (REGULAR).
+      Anggota \'Abyan\' berhasil didaftarkan (REGULAR).
 
       Nama: Altaf
-      Tier (REGULAR / PREMIUM / STAFF): PREMIUM 
-      Anggota 'Altaf' berhasil didaftarkan (PREMIUM).
+      Tier (REGULAR / PREMIUM / STAFF): PREMIUM \n      Anggota \'Altaf\' berhasil didaftarkan (PREMIUM).
 
       Nama: Irsyad
       Tier (REGULAR / PREMIUM / STAFF): STAFF
-      Anggota 'Irsyad' berhasil didaftarkan (STAFF).
+      Anggota \'Irsyad\' berhasil didaftarkan (STAFF).
    2. Lihat Semua Anggota
-      Contoh (jika memilih 2):
-      AG-0001 - Abyan (REGULAR) Aktif: true
+      Contoh (jika memilih 2):\n      AG-0001 - Abyan (REGULAR) Aktif: true
       AG-0002 - Altaf (PREMIUM) Aktif: true
       AG-0003 - Irsyad (STAFF) Aktif: true
    0. Kembali
-   Pilih menu:
-3. Peminjaman Buku
+   Pilih menu:\n3. Peminjaman Buku
 4. Pengembalian Buku
 5. Laporan
 0. Keluar
