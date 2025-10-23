@@ -40,6 +40,22 @@ Username:
 Password:
 ```
 
+## Menu Super Admin
+```
+=== ? Menu Super Admin ===
+1. Tambah akun petugas baru
+   Contoh:
+   Masukkan username petugas baru:asepustakawan
+   Masukkan password:lib234 
+   Akun petugas 'asepustakawan' berhasil ditambahkan.
+2. Lihat daftar petugas
+   Contoh:
+   1. pustakawan (PETUGAS)
+   2. asepustakawan (PETUGAS)
+0. Keluar
+Pilih menu:
+```
+
 ---
 
 ## Hasil Skenario Uji Wajib
