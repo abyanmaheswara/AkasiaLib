@@ -6,12 +6,12 @@ AkasiaLib adalah aplikasi Command-Line Interface (CLI) sederhana untuk manajemen
 
 ## Anggota Tim & Kontribusi
 
-| Peran | Nama             | NIM       | Kontribusi Spesifik |
-| :--- |:-----------------|:----------| :--- |
-| **1. Analis & Desainer** | Dien Putri Alexa | 224443028   | Menganalisis kebutuhan dan merancang struktur kelas dan relasi sesuai spesifikasi tugas (UML). |
-| **2. Implementasi Model & Repository** | Abyan Maheswara  | 224443024 | - Membuat semua data class dan abstract class di direktori `model` (`Buku`, `BukuCetak`, `BukuDigital`, `Anggota`, `Peminjaman`, `Reservasi`).<br>- Mengimplementasikan `interface Identifiable` untuk type safety.<br>- Membuat repositori generik `InMemoryRepo<T>` untuk manajemen data di memori. |
-| **3. Implementasi Service & Logika Bisnis** | Altaf Fazli Sakha | 224443025   | - Membuat `CatalogService` dan `MemberService` untuk manajemen data dasar.<br>- Mengimplementasikan `ReservationService` untuk logika antrian.<br>- Membangun `CirculationService` yang berisi logika bisnis inti: peminjaman, pengembalian, perhitungan denda, dan pengecekan batas pinjam. |
-| **4. Implementasi CLI & Laporan** | Muhammad Irsyad Salim Nugraha | 224443036   | - Membangun antarmuka CLI interaktif di `Main.kt`.<br>- Mengimplementasikan fungsi untuk menjalankan skenario uji wajib secara otomatis.<br>- Membuat fungsi-fungsi untuk menampilkan laporan (pinjaman aktif, buku terpopuler, total denda, antrian reservasi). |
+| Peran | Nama                          | NIM       | Kontribusi Spesifik |
+| :--- |:------------------------------|:----------| :--- |
+| **1. Analis & Desainer** | Dien Putri Alexa              | 224443028 | Menganalisis kebutuhan dan merancang struktur kelas dan relasi sesuai spesifikasi tugas (UML). |
+| **2. Implementasi Model & Repository** | Abyan Maheswara               | 224443024 | - Membuat semua data class dan abstract class di direktori `model` (`Buku`, `BukuCetak`, `BukuDigital`, `Anggota`, `Peminjaman`, `Reservasi`).<br>- Mengimplementasikan `interface Identifiable` untuk type safety.<br>- Membuat repositori generik `InMemoryRepo<T>` untuk manajemen data di memori. |
+| **3. Implementasi Service & Logika Bisnis** | Altaf Fazli Sakha             | 224443025 | - Membuat `CatalogService` dan `MemberService` untuk manajemen data dasar.<br>- Mengimplementasikan `ReservationService` untuk logika antrian.<br>- Membangun `CirculationService` yang berisi logika bisnis inti: peminjaman, pengembalian, perhitungan denda, dan pengecekan batas pinjam. |
+| **4. Implementasi CLI & Laporan** | Muhammad Irsyad Salim Nugraha | 224443036 | - Membangun antarmuka CLI interaktif di `Main.kt`.<br>- Mengimplementasikan fungsi untuk menjalankan skenario uji wajib secara otomatis.<br>- Membuat fungsi-fungsi untuk menampilkan laporan (pinjaman aktif, buku terpopuler, total denda, antrian reservasi). |
 
 ---
 
@@ -30,6 +30,31 @@ Pastikan Anda memiliki JDK (Java Development Kit) yang terinstal.
     ./gradlew run
     ```
 3.  Aplikasi akan pertama-tama menjalankan skenario uji otomatis, lalu menampilkan menu interaktif.
+
+---
+
+## Sistem Login AkasiaLib
+```
+=== ? Sistem Login AkasiaLib ===
+Username:
+Password:
+```
+
+## Menu Super Admin
+```
+=== ? Menu Super Admin ===
+1. Tambah akun petugas baru
+   Contoh:
+   Masukkan username petugas baru:asepustakawan
+   Masukkan password:lib234 
+   Akun petugas 'asepustakawan' berhasil ditambahkan.
+2. Lihat daftar petugas
+   Contoh:
+   1. pustakawan (PETUGAS)
+   2. asepustakawan (PETUGAS)
+0. Keluar
+Pilih menu:
+```
 
 ---
 
@@ -58,3 +83,6 @@ Tambahkan ekspor laporan ke CSV.
 Implementasikan autonumber ID otomatis (BK-0001, AG-0001, dst).
 
 Buat sesi login sederhana (Admin vs Pustakawan).
+
+## Class Diagram
+![Class Diagram](classdiagram_AKASIALAB.drawio.png)
