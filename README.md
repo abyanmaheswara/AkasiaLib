@@ -38,6 +38,15 @@ Pastikan Anda memiliki JDK (Java Development Kit) yang terinstal.
 === ? Sistem Login AkasiaLib ===
 Username:
 Password:
+
+Contoh Login Pustakawan:
+Username:pustakawan
+Password:lib123
+Login berhasil! Selamat datang, pustakawan (Petugas).
+
+Contoh Login Admin:
+Username:admin
+Password:admin123
 ```
 
 ## Menu Super Admin
@@ -52,6 +61,109 @@ Password:
    Contoh:
    1. pustakawan (PETUGAS)
    2. asepustakawan (PETUGAS)
+0. Keluar
+   Contoh:
+   Keluar dari menu admin
+Pilih menu:
+```
+
+## Menu Pustakawan
+```
+=== ? Sistem Perpustakaan AkasiaLib ===
+1. Kelola Buku
+   Contoh (jika memilih 1):
+   === ? Kelola Buku ===
+   1. Tambah Buku Cetak
+      Contoh (jika memilih 1):
+      Judul: Hujan
+      Penulis: Tere Liye
+      Tahun: 2016
+      Kategori: roman, drama, dan fiksi ilmiah (sci-fi)
+      Jumlah halaman:320
+      Stok: 50 
+      Buku 'Hujan' berhasil ditambahkan ke katalog.
+   2. Tambah Buku Digital
+      Contoh (jika memilih 2):
+      Judul: Filosofi Teras: Bagaimana Stoikisme Kuno Dapat Menolong Anda Menghadapi Hidup Modern 
+      Penulis: Henry Manampiring 
+      Tahun: 2019 
+      Kategori: Pengembangan Diri (Self-Help) 
+      Ukuran File: 5.6MB 
+      Format: PDF
+      Buku 'Filosofi Teras: Bagaimana Stoikisme Kuno Dapat Menolong Anda Menghadapi Hidup Modern' berhasil ditambahkan ke katalog.
+   3. Tambah Buku Audio
+      Contoh (jika memilih 3):
+      Judul: Sebuah Seni untuk Bersikap Bodo Amat 
+      Penulis: Mark Manson 
+      Tahun Rilis: 2021 
+      Kategori: Pengembangan Diri (Self-Development) 
+      Durasi Total: 405
+      Narator: Dennis Adishwara 
+      
+      Tipe: Buku Audio
+      ID: BA-0001
+      Judul: Sebuah Seni untuk Bersikap Bodo Amat
+      Penulis: Mark Manson
+      Tahun: 2021
+      Kategori: Pengembangan Diri (Self-Development)
+      Durasi: 6j 45m
+      Narator: Dennis Adishwara
+   4. Lihat Semua Buku
+      Contoh (jika memilih 4):
+      Tipe: Buku Cetak
+      ID: BC-0001
+      Judul: Hujan
+      Penulis: Tere Liye
+      Tahun: 2016
+      Kategori: roman, drama, dan fiksi ilmiah (sci-fi)
+      Halaman: 320
+      Stok: 50
+
+      Tipe: Buku Digital
+      ID: BD-0001
+      Judul: Filosofi Teras: Bagaimana Stoikisme Kuno Dapat Menolong Anda Menghadapi Hidup Modern
+      Penulis: Henry Manampiring
+      Tahun: 2019
+      Kategori: Pengembangan Diri (Self-Help)
+      Ukuran File: 5.6MB
+      Format: PDF
+
+      Tipe: Buku Audio
+      ID: BA-0001
+      Judul: Sebuah Seni untuk Bersikap Bodo Amat
+      Penulis: Mark Manson
+      Tahun: 2021
+      Kategori: Pengembangan Diri (Self-Development)
+      Durasi: 6j 45m
+      Narator: Dennis Adishwara
+   0. Kembali
+   Pilih menu:
+2. Kelola Anggota
+   Contoh (jika memilih 2):
+   === ? Kelola Anggota ===
+   1. Tambah Anggota
+      Contoh (jika memilih 1):
+      Nama: Abyan
+      Tier (REGULAR / PREMIUM / STAFF): REGULAR
+      Anggota 'Abyan' berhasil didaftarkan (REGULAR).
+
+      Nama: Altaf
+      Tier (REGULAR / PREMIUM / STAFF): PREMIUM 
+      Anggota 'Altaf' berhasil didaftarkan (PREMIUM).
+
+      Nama: Irsyad
+      Tier (REGULAR / PREMIUM / STAFF): STAFF
+      Anggota 'Irsyad' berhasil didaftarkan (STAFF).
+   2. Lihat Semua Anggota
+      Contoh (jika memilih 2):
+      AG-0001 - Abyan (REGULAR) Aktif: true
+      AG-0002 - Altaf (PREMIUM) Aktif: true
+      AG-0003 - Irsyad (STAFF) Aktif: true
+   0. Kembali
+   Pilih menu:
+3. Peminjaman Buku
+4. Pengembalian Buku
+5. Laporan
 0. Keluar
 Pilih menu:
 ```
