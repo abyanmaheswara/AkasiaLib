@@ -54,6 +54,11 @@ Pastikan Anda memiliki JDK (Java Development Kit) yang terinstal.
 - Peminjaman Buku
 - Pengembalian Buku
 - Laporan
+  - Daftar Peminjaman Aktif
+  - Total Denda
+  - Top 3 Buku Paling Sering Dipinjam
+  - Ekspor Semua Laporan ke CSV
+  - Kembali
 - Keluar
 
 ---
