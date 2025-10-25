@@ -42,23 +42,10 @@ Pastikan Anda memiliki JDK (Java Development Kit) yang terinstal.
 
 ### Menu Pustakawan
 1. Kelola Buku
-   1. Tambah Buku Cetak
-   2. Tambah Buku Digital
-   3. Tambah Buku Audio
-   4. Lihat Semua Buku
-   0. Kembali
 2. Kelola Anggota
-   1. Tambah Anggota
-   2. Lihat Semua Anggota
-   0. Kembali
 3. Peminjaman Buku
 4. Pengembalian Buku
 5. Laporan
-   1. Daftar Peminjaman Aktif
-   2. Total Denda
-   3. Top 3 Buku Paling Sering Dipinjam
-   4. Ekspor Semua Laporan ke CSV
-   0. Kembali
 0. Keluar
 
 ---
