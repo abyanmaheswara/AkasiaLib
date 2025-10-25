@@ -13,7 +13,7 @@ class BukuAudio(
     override fun info(): String {
         val jam = durasiMenit / 60
         val menit = durasiMenit % 60
-        return '''
+        return """
             Tipe: Buku Audio
             ID: $id
             Judul: $judul
@@ -22,6 +22,6 @@ class BukuAudio(
             Kategori: $kategori
             Durasi: ${jam}j ${menit}m
             Narator: $narrator
-        '''.trimIndent()
+        """.trimIndent()
     }
 }
